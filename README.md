@@ -18,13 +18,12 @@ Using a **self-created synthetic dataset** of ~10 CSV files, the pipeline migrat
 ## Project Structure
 
 banking-data-engineering/
-│
-├── README.md                # Project overview
-├── notebooks/               # Databricks notebooks (bronze, silver, gold transformations)
-├── docs/                    # Detailed explanation + screenshots
-├── data/                    # Synthetic banking dataset (CSV files)
-├── src/                     # Helper Python scripts (ETL functions)
-└── configs/                 # Config templates (with placeholders, no credentials)
+- README.md                # Project overview
+- notebooks/               # Databricks notebooks (bronze, silver, gold transformations)
+- docs/                    # Detailed explanation + screenshots
+- data/                    # Synthetic banking dataset (CSV files)
+- src/                     # Helper Python scripts (ETL functions)
+- configs/                 # Config templates (with placeholders, no credentials)
 
 ## Workflow
 1. **Data Migration** → CSV files migrated from on-prem SQL Server to ADF.  
