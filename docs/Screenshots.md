@@ -6,13 +6,9 @@
 
 - Creating resource group
 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/00798075-57b7-4322-bfa1-6b56755afdb9" />
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/00798075-57b7-4322-bfa1-6b56755afdb9" />
 
 - Migrating data from on premises SQL server to ADF.
-
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/cec255ff-171d-44c5-8306-8371b03ca392" />
-
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/c43a90af-954e-454b-b70a-083d6a875a09" />
 
 - Creating IR(Self hosted integration runtime) which will be downloaded while creating IR. 
                  Two IR’s-1. Self hosted Integration Runtime. Local-mssql-ir
@@ -32,11 +28,11 @@
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/38a38d9b-7931-49da-82d2-933a619dad84" />
 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/3965d62e-b781-4f1d-af70-8511c638c0ed" />
-
+<br>
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/d0f73728-900a-497c-8163-3efc7176187e" />
-
+<br>
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/4b6c2300-4a88-46ae-bf6a-c0d66a00142d" />
-
+<br>
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/5fa9b961-e516-48c9-a33e-bf61f2144e9f" />
 
 - @activity(Lookup up Tables).output.value->It is used for dynamic content.
@@ -49,25 +45,25 @@ On success of lookup activity we can attach it by selecting new activity for eac
 - In this, I created one more activity which is run on copy Batch Table by using for each first inside this for each again copying each table from ssms at the same by passing parameters as file names.
 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/96ced606-0e7e-40a0-a1ac-52bf4a2f8593" />
-
+<br>
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/0c919123-26e2-4ad1-b660-c8d0ec0c54c3" />
-
+<br>
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/454f9737-2a98-4e4e-9a05-7a9c0cd3fc30" />
-
+<br>
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/e5239638-ce30-497c-9cb6-858cb0280b14" />
-
+<br>
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/39ae98ec-00d3-49e2-a9e2-83bfd85afd2d" />
-
+<br>
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/bb15eaf4-78c8-4844-a18e-b972baafdd08" />
-
+<br>
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/bc30cc7f-ec0b-44cb-ad89-8a7971c63783" />
-
+<br>
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/7c536c36-a48a-442f-beff-aa28fd965f3a" />
-
+<br>
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/f4338f36-803d-4b32-b4b2-94ed0d92198f" />
-
+<br>
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/636668e9-7227-40bd-8498-f8e64ff601a2" />
-
+<br>
 <img width="940" height="1117" alt="image" src="https://github.com/user-attachments/assets/af71fd6c-b919-45bb-912d-d815940c6852" />
 
 - For copying data, we created one container inside data lake storage with the name bronze. So, all raw data will be copied to bronze.
