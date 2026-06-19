@@ -1,8 +1,12 @@
 # My Project Scenario-Banking Customer Domain
 
 - Imported 10 CSV files containing banking customer data from our pc to SQL server using SSMS to cloud.
-         
-<img width="500" height="500" align="center" alt="image" src="https://github.com/user-attachments/assets/d5deda0e-f8a0-4609-b10c-4d529262167d" />
+  
+  <p align="center">
+  <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/d5deda0e-f8a0-4609-b10c-4d529262167d" />
+</p>
+       
+
 
 - Creating resource group
 
