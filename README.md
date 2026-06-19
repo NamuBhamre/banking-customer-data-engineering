@@ -52,6 +52,10 @@ Detailed project explanation with **screenshots and scenario description** is av
 > Note: This project was originally built on a free Azure account that is no longer active.  
 > All required notebooks and dataset are included in this repository for reproducibility.
 
+---
+**Author**: Namrata Ratilal Bhamre
+© 2026 Namrata Ratilal Bhamre. All rights reserved.
+
 
 
 
