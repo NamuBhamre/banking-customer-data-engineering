@@ -1,0 +1,26 @@
+product_id,product_name,account_type,features/0,features/1,features/2
+P7001,Savings Pro Plan,Savings,High interest,Auto sweep,SMS alerts
+P7002,Smart Checking,Checking,Zero fees,Bill pay,Overdraft protection
+P7003,Platinum Credit,Credit,Cashback,Reward points,EMI options
+P7004,Junior Saver,Savings,Guardian access,Goal tracking,
+P7005,Basic Checking,Checking,Free checkbook,Online transfers,
+P7006,Silver Credit,Credit,EMI facility,Spend analyzer,
+P7007,Youth Booster,Savings,Low minimum balance,Mobile banking,
+P7008,Premium Checking,Checking,Cash deposit machine,Dedicated support,
+P7009,Global Credit Card,Credit,International use,Travel insurance,
+P7010,Senior Saver,Savings,Priority service,Pension auto-credit,
+P7011,Elite Checking,Checking,Unlimited transactions,Concierge support,
+P7012,Gold Credit,Credit,Bonus rewards,Balance transfer,
+P7013,Family Saver,Savings,Linked accounts,Family goals dashboard,
+P7014,Eco Checking,Checking,Paperless statements,Carbon offset tracking,
+P7015,Travel Credit Plus,Credit,Lounge access,Flight delay insurance,
+P7016,Startup Saver,Savings,Business insights,Free accounting software,
+P7017,Essential Checking,Checking,Monthly budgeting,ATM reimbursements,
+P7018,Rewards Credit Max,Credit,Accelerated points,Partner discounts,
+P7019,Student Saver,Savings,No charges,Educational rewards,
+P7020,Digital Checking,Checking,Instant transactions,Virtual debit card,
+P7021,Cash Credit Basic,Credit,Easy approval,Simple billing,
+P7022,Goal Saver Pro,Savings,Custom saving buckets,Automatic deposits,
+P7023,Flex Checking,Checking,Flexible limits,Multi-device access,
+P7024,Titanium Credit,Credit,Travel deals,Low interest,
+P7025,Super Saver,Savings,Bonus interest,Referral rewards,
