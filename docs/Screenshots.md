@@ -2,11 +2,11 @@
 
 - Imported 10 CSV files containing banking customer data from our pc to SQL server using SSMS to cloud.
          
-<img width="923" height="609" alt="image" src="https://github.com/user-attachments/assets/d5deda0e-f8a0-4609-b10c-4d529262167d" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/d5deda0e-f8a0-4609-b10c-4d529262167d" />
 
 - Creating resource group
 
-<img width="953" height="486" alt="image" src="https://github.com/user-attachments/assets/00798075-57b7-4322-bfa1-6b56755afdb9" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/00798075-57b7-4322-bfa1-6b56755afdb9" />
 
 -Migrating data from on premises SQL server to ADF.
 
