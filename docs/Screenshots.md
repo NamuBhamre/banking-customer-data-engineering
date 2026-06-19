@@ -16,25 +16,25 @@
 - linked service-for connecting on premises sql server to cloud->source_dataset
 - For each activity in pipeline, there will be two linked services and two datasets.
 - One for source(input) and another for sink(output)
-
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/8f4f733a-027b-4cb8-a8f3-98618da58862" />
-
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/ee75485e-2114-4017-a428-d0a364b2b6a4" />
-
 -I have created one pipeline SQLmigiration where activity->Lookup lookup Tables(name can be changed in general)
-
+<p>
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/e5bafcf6-2452-40a6-b21e-e408335444e4" />
-
+</p>
+<p>
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/38a38d9b-7931-49da-82d2-933a619dad84" />
-
+</p>
+<p>
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/3965d62e-b781-4f1d-af70-8511c638c0ed" />
-<br>
+</p>
+<p>
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/d0f73728-900a-497c-8163-3efc7176187e" />
-<br>
+</p>
+<p>
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/4b6c2300-4a88-46ae-bf6a-c0d66a00142d" />
-<br>
+</p>
+<p>
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/5fa9b961-e516-48c9-a33e-bf61f2144e9f" />
-
+</p>
 - @activity(Lookup up Tables).output.value->It is used for dynamic content.
 On success of lookup activity we can attach it by selecting new activity for each activity and renamed it general as ForEach Each Table.
 
@@ -43,29 +43,39 @@ On success of lookup activity we can attach it by selecting new activity for eac
 - By using add activity to for each activity create copy data activity.
 
 - In this, I created one more activity which is run on copy Batch Table by using for each first inside this for each again copying each table from ssms at the same by passing parameters as file names.
-
+<p>
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/96ced606-0e7e-40a0-a1ac-52bf4a2f8593" />
-<br>
+</p>
+<p>
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/0c919123-26e2-4ad1-b660-c8d0ec0c54c3" />
-<br>
+</p>
+<p>
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/454f9737-2a98-4e4e-9a05-7a9c0cd3fc30" />
-<br>
+</p>
+<p>
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/e5239638-ce30-497c-9cb6-858cb0280b14" />
-<br>
+</p>
+<p>
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/39ae98ec-00d3-49e2-a9e2-83bfd85afd2d" />
-<br>
+</p>
+<p>
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/bb15eaf4-78c8-4844-a18e-b972baafdd08" />
-<br>
+</p>
+<p>
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/bc30cc7f-ec0b-44cb-ad89-8a7971c63783" />
-<br>
+</p>
+<p>
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/7c536c36-a48a-442f-beff-aa28fd965f3a" />
-<br>
+</p>
+<p>
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/f4338f36-803d-4b32-b4b2-94ed0d92198f" />
-<br>
+</p>
+<p>
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/636668e9-7227-40bd-8498-f8e64ff601a2" />
-<br>
+</p>
+<p>
 <img width="940" height="1117" alt="image" src="https://github.com/user-attachments/assets/af71fd6c-b919-45bb-912d-d815940c6852" />
-
+</p>
 - For copying data, we created one container inside data lake storage with the name bronze. So, all raw data will be copied to bronze.
 - Finally, all data tables get copied from on premises sql server to adls using this copy data activity in adf but for adls we used auto created IR which is for the services inside cloud. And self hosted IR for data migiration from outside cloud.
 - Data will be copied to a bronze container in datalake.
