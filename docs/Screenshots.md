@@ -4,7 +4,7 @@
          
 <img width="923" height="609" alt="image" src="https://github.com/user-attachments/assets/d5deda0e-f8a0-4609-b10c-4d529262167d" />
 
--Creating resource group
+- Creating resource group
 
 <img width="953" height="486" alt="image" src="https://github.com/user-attachments/assets/00798075-57b7-4322-bfa1-6b56755afdb9" />
 
@@ -14,12 +14,12 @@
 
 <img width="838" height="709" alt="image" src="https://github.com/user-attachments/assets/c43a90af-954e-454b-b70a-083d6a875a09" />
 
--Creating IR(Self hosted integration runtime) which will be downloaded while creating IR. 
+- Creating IR(Self hosted integration runtime) which will be downloaded while creating IR. 
                  Two IR’s-1. Self hosted Integration Runtime. Local-mssql-ir
                           2. AutoResolvedIntegrationRuntime
--linked service-for connecting on premises sql server to cloud->source_dataset
--For each activity in pipeline, there will be two linked services and two datasets.
--One for source(input) and another for sink(output)
+- linked service-for connecting on premises sql server to cloud->source_dataset
+- For each activity in pipeline, there will be two linked services and two datasets.
+- One for source(input) and another for sink(output)
 
 <img width="940" height="613" alt="image" src="https://github.com/user-attachments/assets/8f4f733a-027b-4cb8-a8f3-98618da58862" />
 
