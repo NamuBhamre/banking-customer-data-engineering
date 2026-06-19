@@ -37,9 +37,9 @@
 </p>
 - @activity(Lookup up Tables).output.value->It is used for dynamic content.
 On success of lookup activity we can attach it by selecting new activity for each activity and renamed it general as ForEach Each Table.
-
+<p align="left">
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/62312bae-6434-430e-915c-cc9f40799e05" />
-
+</p>
 - By using add activity to for each activity create copy data activity.
 
 - In this, I created one more activity which is run on copy Batch Table by using for each first inside this for each again copying each table from ssms at the same by passing parameters as file names.
