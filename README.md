@@ -54,6 +54,7 @@ Detailed project explanation with **screenshots and scenario description** is av
 
 ---
 **Author**: Namrata Ratilal Bhamre
+<br>
 © 2026 Namrata Ratilal Bhamre. All rights reserved.
 
 
